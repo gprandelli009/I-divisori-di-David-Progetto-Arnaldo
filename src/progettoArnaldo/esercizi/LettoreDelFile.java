@@ -23,9 +23,9 @@ public class LettoreDelFile {
 		PrintWriter uscita = new PrintWriter(Output);
 
 		try {
-			Scanner scanner = new Scanner(file);
-			while (scanner.hasNextLine()) {
-				i=scanner.nextInt();
+			Scanner Acuisisci = new Scanner(file);
+			while (Acuisisci.hasNextLine()) {
+				i=Acuisisci.nextInt();
 				Contenitore.add(i);
 			}
 		} catch (FileNotFoundException e) {
