@@ -11,7 +11,7 @@ public class LettoreDelFile {
 	public LettoreDelFile() {
 	}
 	
-	public void Lettura_Scrittura(String Input, String Output) throws FileNotFoundException {
+	public static void Lettura_Scrittura(String Input, String Output) throws FileNotFoundException {
 		int i;
 		double tempoInizio=System.currentTimeMillis();
 		File file = new File(Input); 
